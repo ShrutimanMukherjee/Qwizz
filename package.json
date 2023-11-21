@@ -1,0 +1,23 @@
+{
+  "name": "qwizz",
+  "version": "1.0.0",
+  "description": "![Home Screen](./images/cover.png)",
+  "main": "./'Quiz App Master'/index.html",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShrutimanMukherjee/Qwizz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShrutimanMukherjee/Qwizz/issues"
+  },
+  "homepage": "https://github.com/ShrutimanMukherjee/Qwizz#readme"
+}
