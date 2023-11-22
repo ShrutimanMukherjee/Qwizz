@@ -15,6 +15,9 @@ fetch('data.json')
     .then((res) => {
         return res.json();
     })
+    .then( (obj) => {
+        return obj['qlist'];
+    })
     .then((loadedQuestions) => {
         questions = loadedQuestions;
         startGame();
