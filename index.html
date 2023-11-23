@@ -7,7 +7,16 @@
     <title>Quizz</title>
     <link rel="stylesheet" href="app.css" />
   </head>
-  <body>
+  <body onload="onload()">
+    <div class="navigation-bar">
+      <nav>
+        <a class="btn">
+          <button onclick="darkmode()">Toggle Dark Mode</button>
+          <a class="btn" href="index.html">Home</a>
+          <a class="btn" href="highscores.html">High Scores</a>
+        </a>
+      </nav>
+    </div>
     <div class="container">
       <div id="home" class="flex-center flex-column">
         <h1> Choose role </h1>
@@ -26,6 +35,7 @@
         </form>
       </div>
     </div>
+    <script src="darkmode.js"></script>
     <script src="admin_check.js"></script>
   </body>
 </html>

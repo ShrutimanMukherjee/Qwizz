@@ -48,6 +48,54 @@
       "choice3": "D",
       "choice4": "J",
       "answer": 4
+    },
+    {
+      "question": "What is the largest internal organ in the human body?",
+      "choice1": "Lungs ",
+      "choice2": "Heart",
+      "choice3": "Kidneys",
+      "choice4": "Liver",
+      "answer": 4
+    },
+    {
+      "question": "Entomology is the science that studies",
+      "choice1": "Behavior of human beings",
+      "choice2": "Insects",
+      "choice3": "The origin and history of technical and scientific terms",
+      "choice4": "The formation of rocks",
+      "answer": 2
+    },
+    {
+      "question": "Which of the given devices is used for counting blood cells?",
+      "choice1": "Hmelethometer",
+      "choice2": "Spyscometer",
+      "choice3": "Hemocytometer",
+      "choice4": "Hamosytometer",
+      "answer": 3
+    },
+    {
+      "question": "What shape is the constellation Ursa Major known to have?",
+      "choice1": "Bear",
+      "choice2": "Ladle",
+      "choice3": "Circle",
+      "choice4": "Book",
+      "answer": 2
+    },
+    {
+      "question": "Besides white, how many colours are on the flag of Jordan?",
+      "choice1": "2",
+      "choice2": "3",
+      "choice3": "4",
+      "choice4": "5",
+      "answer": 2
+    },
+    {
+      "question": "qqqqqq",
+      "choice1": "c111",
+      "choice2": "c2",
+      "choice3": "c3",
+      "choice4": "c4",
+      "answer": null
     }
   ]
 }

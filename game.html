@@ -8,7 +8,16 @@
     <link rel="stylesheet" href="app.css" />
     <link rel="stylesheet" href="game.css" />
   </head>
-  <body>
+  <body onload="onload()">
+    <div class="navigation-bar">
+      <nav>
+        <a class="btn">
+          <button onclick="darkmode()">Toggle Dark Mode</button>
+          <a class="btn" href="index.html">Home</a>
+        </a>
+      </nav>
+    </div>
+    <script src="darkmode.js"></script>
     <div class="container">
       <div id="game" class="justify-center flex-column">
         <div id="hud">
@@ -49,5 +58,7 @@
       </div>
     </div>
     <script src="game.js"></script>
+    <script src="darkmode.js"></script>
+    
   </body>
 </html>

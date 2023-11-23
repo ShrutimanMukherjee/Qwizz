@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Quizz</title>
     <link rel="stylesheet" href="app.css" />
+    <style>
+      label {
+        font-size: medium;
+      }
+
+    </style>
   </head>
   <body>
     <div class="container">
@@ -16,19 +22,19 @@
             <label for="question"> Question: </label>
             <input type="text" id="question" name="question" required>
 
-            <label for="choice1"> Choice1 </label>
-            <input type="text" id="choice1" name="choice1" required>
+            <label for="choice1"> Choice 1: </label>
+            <input type="text" id="choice" name="choice1" required>
 
-            <label for="choice2"> Choice2 </label>
-            <input type="text" id="choice2" name="choice2" required>
+            <label for="choice2"> Choice 2: </label>
+            <input type="text" id="choice" name="choice2" required>
 
-            <label for="choice3"> Choice3 </label>
-            <input type="text" id="choice3" name="choice3" required>
+            <label for="choice3"> Choice 3: </label>
+            <input type="text" id="choice" name="choice3" required>
 
-            <label for="choice4"> Choice4 </label>
-            <input type="text" id="choice4" name="choice4" required>
+            <label for="choice4"> Choice 4: </label>
+            <input type="text" id="choice" name="choice4" required>
 
-            <label for="answer">Answer</label>
+            <label for="answer">Answer (Enter choice number):</label>
             <input type="text" id="answer" name="answer" required>
 
             <input class="btn" type="submit" id="submit" name="submit" value="Add this question">

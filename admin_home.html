@@ -9,7 +9,7 @@
 
     <style>
       #page_content {
-        max-width: 800px;
+        max-width: 1500px;
         margin: 20px auto;
         background-color: #fff;
         padding: 20px;
@@ -23,22 +23,29 @@
       }
 
       th, td {
-        border: 1px solid #ddd;
+        border: 1px solid #000000;
         padding: 10px;
-        text-align: left;
+        text-align: left;  
+        font-size: medium;
       }
 
       th {
-        background-color: #f2f2f2;
+        background-color: rgb(107, 107, 217);
       }
 
       li {
         list-style: none;
       }
+
+      #addq_btn{
+      margin-left: 45%;
+      }
     </style>
   </head>
   <body>
     <div id="page_content">
+      <button class="btn" id="addq_btn" onclick="window.location='http://localhost:3000/addq_form.html'">Add Question</button>
+
       <table id="qtable"  >
         <tr>
           <th> Question </th>
@@ -48,7 +55,6 @@
       </table>
       <br>
 
-      <button class="btn" id="addq_btn" onclick="window.location='http://localhost:3000/addq_form.html'">Add Question</button>
     </div>
     <script src="admin.js"></script>
   </body>

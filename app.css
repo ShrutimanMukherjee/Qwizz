@@ -74,12 +74,14 @@ h1 > span {
 
 h2 {
   font-size: 4rem;
+  color: #56a5eb;
   margin-bottom: 4rem;
   font-weight: 700;
 }
 
 h3 {
   font-size: 2.8rem;
+  color: #56a5eb;
   font-weight: 500;
 }
 
@@ -154,6 +156,14 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#question {
+  width: 100rem;
+}
+
+#choice {
+  width: 50rem;
 }
 
 input {

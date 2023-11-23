@@ -6,8 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Quizz</title>
     <link rel="stylesheet" href="app.css" />
+    <style>
+      #dark{
+        padding-right: 100px;
+      }
+    </style>
   </head>
-  <body>
+  <body onload="onload()">
+    <div class="navigation-bar">
+      <nav>
+        <a class="btn">
+          <button id='dark' onclick="darkmode()">Toggle Dark Mode</button>
+          <a class="btn" href="index.html">Home</a>
+          <a class="btn" href="highscores.html">High Scores</a>
+        </a>
+      </nav>
+    </div>
+    <script src="darkmode.js"></script>
     <div class="container">
       <div id="home" class="flex-center flex-column">
         <h1>Play Quizz</h1>
@@ -16,5 +31,6 @@
         <a class="btn" href="/highscores.html">High Scores</a>
       </div>
     </div>
+    <script src="darkmode.js"></script>
   </body>
 </html>
