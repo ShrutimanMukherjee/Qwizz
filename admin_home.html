@@ -8,19 +8,38 @@
     <link rel="stylesheet" href="app.css" />
 
     <style>
+      #page_content {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      th, td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+
       li {
         list-style: none;
       }
     </style>
-  <!-- <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script> -->
-  <!-- Module Named fs is not loaded -->
-
-  <!-- <script src="/socket.io/socket.io.js"></script> -->
-  <!-- <script src="node_modules/socket.io/wrapper.mjs"></script> -->
   </head>
   <body>
     <div id="page_content">
-      <table id="qtable"  border="1" style="width:50%">
+      <table id="qtable"  >
         <tr>
           <th> Question </th>
           <th> Options </th>

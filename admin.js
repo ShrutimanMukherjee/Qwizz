@@ -1,11 +1,3 @@
-// var fs = require("fs"); /* Uncaught reference : require is not defined */
-/* But works on local node console */
-// fs.readFile('data.json'); 
-
-// import * as f from fs; /* Cannot use import outside module */
-
-// import("/node_modules/fs").then((mod) => {console.log(mod.readFile('data.json'));}) /* 404 */
-
 var page_content = document.getElementById("page_content");
 var qtable = document.getElementById("qtable");
 
