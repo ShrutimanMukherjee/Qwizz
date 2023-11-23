@@ -28,12 +28,13 @@ fetch('data.json')
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+var MAX_QUESTIONS = 3;
 
 startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuesions = [...questions];
+    MAX_QUESTIONS = Math.floor(availableQuesions.length/2);
     getNewQuestion();
 };
 
