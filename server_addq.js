@@ -14,13 +14,13 @@ const requestListener = function (req, res) {
             body += chunk.toString();
         });
         
-        var jsonData = "";
+        // var jsonData = "";
         // req.on('end', () => {
             const postData = querystring.parse(body);
             const questionVal = postData.question || 'No question provided';
 
             fs.readFile('data.json', (err, data) => {
-                jsonData = JSON.parse(data);
+                const jsonData = JSON.parse(data);
                 console.log(jsonData);
                 console.log("-----------");
                 console.log(err);
@@ -45,7 +45,7 @@ const requestListener = function (req, res) {
                     "answer": postData.answer
                  });
 
-                var updatedData = JSON.stringify(jsonData, null, 2);
+                const updatedData = JSON.stringify(jsonData, null, 2);
                 fs.writeFile('data.json', updatedData, (err) => {
                     if (err) {
                         console.error('Error writing file:', err);

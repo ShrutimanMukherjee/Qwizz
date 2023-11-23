@@ -1,6 +1,6 @@
 {
-  "adminpass" : "admin",
- "qlist": [
+  "adminpass": "admin",
+  "qlist": [
     {
       "question": "Inside which HTML element do we put the JavaScript??",
       "choice1": "<script>",
@@ -24,6 +24,7 @@
       "choice3": "msg('Hello World');",
       "choice4": "alert('Hello World');",
       "answer": 4
-    }
+    },
+    {}
   ]
 }
