@@ -2,29 +2,44 @@
   "adminpass": "admin",
   "qlist": [
     {
-      "question": "Inside which HTML element do we put the JavaScript??",
-      "choice1": "<script>",
-      "choice2": "<javascript>",
-      "choice3": "<js>",
-      "choice4": "<scripting>",
+      "question": "What is celebrated on February 2 and is also a film?",
+      "choice1": "Groundhog Day",
+      "choice2": "Independence Day",
+      "choice3": "Election Day",
+      "choice4": "Earth Day",
       "answer": 1
     },
     {
-      "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-      "choice1": "<script href='xxx.js'>",
-      "choice2": "<script name='xxx.js'>",
-      "choice3": "<script src='xxx.js'>",
-      "choice4": "<script file='xxx.js'>",
+      "question": "What is the official national anthem of the United States of America",
+      "choice1": "America the Beautiful",
+      "choice2": "God Bless America",
+      "choice3": "The Star Spangled Banner",
+      "choice4": "My Country, 'Tis of Thee",
       "answer": 3
     },
     {
-      "question": " How do you write 'Hello World' in an alert box?",
-      "choice1": "msgBox('Hello World');",
-      "choice2": "alertBox('Hello World');",
-      "choice3": "msg('Hello World');",
-      "choice4": "alert('Hello World');",
+      "question": "What was Twitter’s original name?",
+      "choice1": "X",
+      "choice2": "chirp",
+      "choice3": "cuckoo",
+      "choice4": "twttr",
       "answer": 4
     },
-    {}
+    {
+      "question": "Globe and Jerusalem are types of what?",
+      "choice1": "Travel Guide",
+      "choice2": "Artichokes",
+      "choice3": "Novel",
+      "choice4": "Religious Movement",
+      "answer": 2
+    },
+    {
+      "question": "Who is known as 'The Iron Man of India' ?",
+      "choice1": "Netaji Subhas Chandra Bose",
+      "choice2": "Sardar Vallabhai Patel",
+      "choice3": "M.K. Gandhi",
+      "choice4": "Dr. Rajendra Prasad",
+      "answer": 2
+    }
   ]
 }

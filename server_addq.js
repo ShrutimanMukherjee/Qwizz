@@ -14,8 +14,7 @@ const requestListener = function (req, res) {
             body += chunk.toString();
         });
         
-        // var jsonData = "";
-        // req.on('end', () => {
+        req.on('end', () => {
             const postData = querystring.parse(body);
             const questionVal = postData.question || 'No question provided';
 
@@ -32,17 +31,15 @@ const requestListener = function (req, res) {
                     "choice2": postData.choice2,
                     "choice3": postData.choice3,
                     "choice4": postData.choice4,
-                    "answer": postData.answer
+                    "answer": parseInt(postData.answer)
                 });
-                console.log("-----------");
-                console.log(jsonData);
                 jsonData.qlist.push({ 
                     "question": postData.question,
                     "choice1": postData.choice1,
                     "choice2": postData.choice2,
                     "choice3": postData.choice3,
                     "choice4": postData.choice4,
-                    "answer": postData.answer
+                    "answer": parseInt(postData.answer)
                  });
 
                 const updatedData = JSON.stringify(jsonData, null, 2);
@@ -56,22 +53,13 @@ const requestListener = function (req, res) {
                 
             });
 
-            // var updatedData = JSON.stringify(jsonData, null, 2);
-            // fs.writeFile('data.json', updatedData, (err) => {
-            //     if (err) {
-            //         console.error('Error writing file:', err);
-            //     } else {
-            //         console.log('Data appended successfully!');
-            //     }
-            // });
-        
-            res.writeHead(200, { 'Content-Type': 'text/plain' });
+            res.setHeader('location', 'http://localhost:3000/admin_home.html');
+            res.statusCode = 302;
             res.end(`Response received: ${questionVal}`);
-        // });
+        });
     } 
     else {
         console.log("Not Post");
-        // console.log(req);
     }
 };
 
